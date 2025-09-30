@@ -1,0 +1,32 @@
+# Binários
+glpi-clickup
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Arquivos de teste
+*.test
+
+# Arquivos temporários
+*.tmp
+*.log
+
+# Diretórios de dependências
+vendor/
+
+# Arquivos de configuração local
+.env
+config.local.json
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+.env.example
+run.sh
